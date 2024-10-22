@@ -1,0 +1,53 @@
+/* Apply styles to the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Change box model properties */
+h1 {
+    padding: 20px;
+    margin: 10px;
+}
+
+/* Create a class for sections */
+.content {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.hobbies, .experience {
+    width: 45%;
+    background-color: #fff;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+/* Apply a CSS selector to links */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+/* Change color on hover */
+a:hover {
+    color: #0056b3;
+}
+
+/* Create an ID and style it */
+#professional-experience {
+    border: 2px solid #007bff;
+    padding: 10px;
+}
+
+/* Change box model properties of the image */
+img {
+    width: 100%;
+    height: auto;
+    border: 2px solid #ddd;
+    padding: 5px;
+}
